@@ -1,0 +1,91 @@
+.upperWrapper{
+    background-color: purple;
+    width: 100%;
+}
+.wrapper{
+    width: 30%;
+    padding: 20em;
+}
+
+#quote-box{
+    background-color: white;
+    padding: 2em;
+}
+
+#text{
+    width: 100%;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.bottom{
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0 -1em;
+}
+
+.bottom-top{
+    min-width: 23%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.bottom-bot{
+    min-width: 30%;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.icon{
+    width: 3em;
+    height: 3em;
+    border-radius: 0.5em;
+}
+
+.icon:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+#new-quote{
+    padding: 1em;
+    margin-top: 1em;
+    background-color: rgba(0, 0, 0, 0.065);
+    border: none;
+    border-radius: 0.1em;
+}
+
+#new-quote:hover{
+    background-color: black;
+    color: white;
+}
+
+.blue{
+    background-color:lightblue;
+    color: lightblue;
+}
+
+.pink{
+    background-color:pink;
+    color: pink;
+}
+
+.yellow{
+    background-color: darkgoldenrod;
+    color: darkgoldenrod;
+}
+
+.red{
+    background-color: palevioletred;
+    color: palevioletred;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
